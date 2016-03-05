@@ -32,7 +32,7 @@ $(function(){
 
 	  			popUpString = "<h3>"+data[i].name+"</h3>"+
 	  				"<p>"+data[i].desc+"</p>"+
-	  				data[i].street;
+	  				data[i].street + " " + data[i].number;
 	  			if (data[i].homepage != "") {
 	  				popUpString += "<p><a href="+data[i].homepage+">Website</a></p>";
 	  			} else {
