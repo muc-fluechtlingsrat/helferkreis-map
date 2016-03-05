@@ -1,0 +1,20 @@
+@import url(mini-reset.css);
+
+/* ----------------------------------------------------- Browser specific CSS */
+
+.js div { } /* apply only on JavaScript enabled browsers */
+.ie8 div { } /* apply only on Internet Explorer 7 and below */
+.ie9 div { } /* apply only on Internet Explorer 6 and below */
+
+/* ----------------------------------------------------- tabletish screens */
+
+
+/* ----------------------------------------------------- smartphonish screens */
+@media only screen and (max-width: 767px) {
+
+}
+
+/* ----------------------------------------------------- desktopish screens */
+@media only screen and (min-width: 1024px) {
+
+}
