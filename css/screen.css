@@ -1,0 +1,41 @@
+@import url(mini-reset.css);
+
+/* ----------------------------------------------------- Browser specific CSS */
+
+.js div { } /* apply only on JavaScript enabled browsers */
+.ie8 div { } /* apply only on Internet Explorer 7 and below */
+.ie9 div { } /* apply only on Internet Explorer 6 and below */
+
+/* ----------------------------------------------------- tabletish screens */
+
+#map { height: 800px; }
+
+h3 {
+	font-weight: bold;
+}
+
+header {
+	height: 80px;
+	padding: 20px 0;
+}
+
+h1 {
+	font-size: 36px;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+html {
+	overflow-y: hidden;
+}
+
+/* ----------------------------------------------------- smartphonish screens */
+@media only screen and (max-width: 767px) {
+
+}
+
+/* ----------------------------------------------------- desktopish screens */
+@media only screen and (min-width: 1024px) {
+
+}
