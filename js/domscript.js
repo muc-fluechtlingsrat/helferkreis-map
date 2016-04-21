@@ -10,17 +10,16 @@ $(function(){
 }).addTo(map);
 
 	// Abruf des CSVs
-	d3.json("daten.json", function(data) {
-	  	
+	d3.csv("map_refugee_initiatives_munich.csv", function(data) {   	
 	  	for (var i=0; i<data.length; i++) {
 
 	  		if (data[i].long != '' && data[i].lat != '') {
 
 	  			if (parseInt(data[i].radius) > 0) {
 	  				var marker = L.circle([data[i].lat, data[i].long], data[i].radius, {
-	  				    color: 'red',
-	  				    fillColor: '#f03',
-	  				    fillOpacity: 0.5
+	  				    color: '#ff9933',
+	  				    fillColor: 'yellow',
+	  				    fillOpacity: 0.2
 	  				}).addTo(map);
 	  			} else {
 	  				console.log(data[i]);
@@ -30,9 +29,7 @@ $(function(){
 
 	  			var popUpString = "";
 
-	  			popUpString = "<h3>"+data[i].name+"</h3>"+
-	  				"<p>"+data[i].desc+"</p>"+
-	  				data[i].street + " " + data[i].number;
+	  			popUpString = "<h3>"+data[i].name+"</h3>"
 	  			if (data[i].homepage != "") {
 	  				popUpString += "<p><a href="+data[i].homepage+">Website</a></p>";
 	  			} else {
