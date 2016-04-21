@@ -10,7 +10,7 @@ $(function(){
 }).addTo(map);
 
 	// Abruf des CSVs
-	d3.csv("https://docs.google.com/spreadsheets/d/1oIxVnHMl0VnEcy_Drmh5hJyXNpL1-am5zyD5ErrncbY/pub?gid=0&single=true&output=csv", function(data) {
+	d3.json("daten.json", function(data) {
 	  	
 	  	for (var i=0; i<data.length; i++) {
 
