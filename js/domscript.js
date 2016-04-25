@@ -10,7 +10,7 @@ $(function(){
 }).addTo(map);
 
 	// Abruf des CSVs
-	d3.csv("map_refugee_initiatives_munich.csv", function(data) {   	
+	d3.csv("data/map_refugee_initiatives_munich.csv", function(data) {   	
 	  	for (var i=0; i<data.length; i++) {
 
 	  		if (data[i].long != '' && data[i].lat != '') {

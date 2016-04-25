@@ -15,7 +15,17 @@ Viele Helferkreise haben keine Adresse. Deshalb wählen wir zur Darstellung der 
 
 # Daten 
 
-Wir stellen die Daten zusammen aus http://muenchner-fluechtlingsrat.de/ueber-uns/vernetzung/ und anderen öffentlichen Quellen.
+Wir stellen die Daten zusammen aus http://muenchner-fluechtlingsrat.de/ueber-uns/vernetzung/ und anderen öffentlichen Quellen sowie Korrekturen, die bei uns eingehen.
+
+Es werden nur Initiativen aufgenommen, die für eine oder mehrere Unterkünfte ein breites Spektrum anbieten - typischerweise Deutschkurse, Begleitung bei Behördengängen, Kleidung und Ähnliches. Spezialisierte Organisationen mit größerem Wirkungskreis, etwa für Rechtsberatung, Schwangere oder einzelne Länder, würden den Rahmen sprengen. 
+
+# Datenkorrekturen und -ergänzungen
+
+bitte an elsenheimer_internetzugang@gmx.de
+
+# Bugs
+
+Bugs oder Anforderungen bitte auf github
 
 # Ähnliche Projekte
 
