@@ -46,4 +46,5 @@ $(function(){
 	// Groesse anpassen
 	console.log($(window).height()-$("header").outerHeight());
 	$('#map').height($(window).height()-$("header").outerHeight());
+
 });
