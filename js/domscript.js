@@ -3,7 +3,7 @@ $(function(){
 	var map = L.map('map').setView([48.13, 11.58], 10);
 
 	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a>, &copy; <a href="http://mapbox.com">Mapbox</a>',
+    attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> &copy; <a href="http://mapbox.com">Mapbox</a>',
     attributionControl:false,
     maxZoom: 15,
     minZoom: 10,
