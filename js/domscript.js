@@ -23,7 +23,6 @@ $(function(){
 	  				    fillOpacity: 0.2
 	  				}).addTo(map);
 	  			} else {
-	  				console.log(data[i]);
 
 					var marker = L.marker([data[i].lat, data[i].long]).addTo(map);
 	  			}
@@ -45,7 +44,6 @@ $(function(){
 
 
 	// Groesse anpassen
-	console.log($(window).height()-$("header").outerHeight());
-	$('#map').height($(window).height()-$("header").outerHeight());
+	//$('#map').height($(window).height()-$("header").outerHeight());
 
 });
