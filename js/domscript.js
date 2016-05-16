@@ -5,7 +5,8 @@ $(function(){
 	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a>, &copy; <a href="http://mapbox.com">Mapbox</a>',
     attributionControl:false,
-    maxZoom: 18,
+    maxZoom: 15,
+    minZoom: 10,
     detectRetina: true,
     id: 'mapbox.streets',
     accessToken: 'pk.eyJ1IjoiYmVybmhhcmR2b2dsZXIiLCJhIjoiY2lsZjFrMXE2MDAyeHc5bTQxa2Rob293ZCJ9.rzwxlAgOdr-6YhTwYfF-jA'
