@@ -54,10 +54,6 @@ header a:hover, header a:active, header a:focus {
 	text-align: center;
 }
 
-html {
-	overflow-y: hidden;
-}
-
 body.map {
 	background-color: #505149;
 	width: 100%;
@@ -93,6 +89,7 @@ h3 {
 #container {
 	margin: 40px auto;
 	max-width: 700px;
+	padding: 0 20px;
 	text-align: left;
 }
 
@@ -105,7 +102,7 @@ a:hover, a:active, a:focus {
 }
 
 /* ----------------------------------------------------- tabletish screens */
-@media only screen and (max-width: 870px) {
+@media only screen and (max-width: 960px) {
 	header {
 		padding: 15px 0 5px;
 		height: 70px;
@@ -115,12 +112,12 @@ a:hover, a:active, a:focus {
 	}
 
 
-	h1 {
+	.map h1 {
 		font-size: 24px;
 	}
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 700px) {
 	header {
 		padding: 10px 0 5px;
 		height: 70px;
@@ -128,8 +125,8 @@ a:hover, a:active, a:focus {
 	#wrapper {
 		height: calc(100% - 70px);
 	}
-	h1 {
-		font-size: 18px;
+	.map h1 {
+		font-size: 20px;
 	}
 	#remarks {
 		font-size: 11px;
