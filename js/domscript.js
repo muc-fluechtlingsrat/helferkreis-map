@@ -21,8 +21,8 @@ $(function(){
 	  			if (parseInt(data[i].radius) > 0) {
 	  				var marker = L.circle([data[i].lat, data[i].long], data[i].radius, {
 	  				    color: '#ff9933',
-	  				    fillColor: 'yellow',
-	  				    fillOpacity: 0.2
+	  				    fillColor: '#D9EB76',
+	  				    fillOpacity: 0.4
 	  				}).addTo(map);
 	  			} else {
 
