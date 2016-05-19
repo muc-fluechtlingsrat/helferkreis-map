@@ -81,7 +81,7 @@ h3 {
 	margin-top: 1em;
 }
 
-#container p {
+#container p, #container ul {
 	font-size: 18px;
 	margin-bottom: 1em;
 }
@@ -111,9 +111,13 @@ a:hover, a:active, a:focus {
 		height: calc(100% - 70px);
 	}
 
-
 	.map h1 {
 		font-size: 24px;
+	}
+
+	#container p, #container ul {
+		font-size: 16px;
+		line-height: 1.5em;
 	}
 }
 
