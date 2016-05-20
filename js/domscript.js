@@ -1,4 +1,4 @@
-function(){
+$(function(){
 
 	var map = L.map('map').setView([48.13, 11.58], 10);
 
@@ -48,4 +48,4 @@ function(){
 	// Groesse anpassen
 	//$('#map').height($(window).height()-$("header").outerHeight());
 
-
+});
