@@ -155,7 +155,7 @@ a:hover, a:active, a:focus {
 	}
 }
 
-@media only screen and (max-width: 330px) {
+@media only screen and (max-width: 340px) {
 	.map h1 {
 		font-size: 18px;
 	}
