@@ -126,6 +126,10 @@ a:hover, a:active, a:focus {
 		font-size: 16px;
 	}
 
+	h1 {
+		font-size: 24px;
+	}
+
 	#container p, #container ul {
 		font-size: 16px;
 		line-height: 1.5em;
