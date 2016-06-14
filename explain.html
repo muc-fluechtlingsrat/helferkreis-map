@@ -1,25 +1,42 @@
-<html>
-  <head>
-     <title>Erklärung zur helferkreis-map</title>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+     <title>Erklärung zur Helferkreis-Karte München</title>
   <link rel="stylesheet" type="text/css" href="css/screen.css">
   <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
   </head>
   <body>
-  <h3> Ziel </h3>
-  <p>Diese Karte will einen Beitrag dazu leisten, dass Interessierte und Aktive in M&uuml;nchen leichter Fl&uuml;chtlingsinitiativen in ihrer N&auml;he finden. Sie beschr&auml;nkt sich auf Initiativen von der Art "Helferkreise" und "Zusammen leben in ... ", das heisst solche, die lokal gebunden sind und eine breites Angebot bereitstellen. Dazu geh&ouml;ren oft Deutschkurse, Freizeitaktivit&auml;ten, Sammeln und Ausgabe von Sachspenden wie Spielzeug und Kleidung.</p>
-  <h3> Korrekturen </h3>
-  <p>
-  Wir freuen uns &uuml;ber jede Korrektur und Erg&auml;nzung, bitte schreiben Sie an elsenheimer_internetzugang@gmx.de
-  </p>
-  <h3> Daten </h3>
-  Die Daten in csv-Format finden Sie auf github: <a href="https://raw.githubusercontent.com/muc-fluechtlingsrat/helferkreis-map/gh-pages/data/map_refugee_initiatives_munich.csv">map_refugee_initiatives_munich.csv</a>, die Metadaten hier in json-Format <a href="https://raw.githubusercontent.com/muc-fluechtlingsrat/helferkreis-map/gh-pages/data/datapackage.json">datapackage.json</a>. Das Weiterbenutzen ist ausdr&uuml;cklich erlaubt.
-  <h3> &Auml;hnliche Karten </h3>
-  F&uuml;r M&uuml;nchen:
-  <a href="http://www.fluechtlingshilfemuenchen.de/mithelfen/">http://www.fluechtlingshilfemuenchen.de/mithelfen/</a> <br>
-  &Uuml;bersichtskarte Bayern:
-  <a href="http://www.asylhelfer.bayern">http://www.asylhelfer.bayern/</a>
-  Deutschlandweit, mit Verweis auf viele lokale Karten:
-  <a href="https://www.proasyl.de/ehrenamtliches-engagement/">https://www.proasyl.de/ehrenamtliches-engagement/</a>
+    <div id="container">
+      <p><a href="index.html">← zurück zur Karte</a></p>
+      <h1>Über die Helferkreis-Karte München</h1>
+      <h3> Ziel </h3>
+      <p>Diese Karte will einen Beitrag dazu leisten, dass Interessierte und Aktive in M&uuml;nchen leichter Fl&uuml;chtlingsinitiativen in ihrer N&auml;he finden. Sie beschr&auml;nkt sich auf Initiativen von der Art „Helferkreise“ und „Zusammen leben in ...“, das heißt solche, die lokal gebunden sind und eine breites Angebot bereitstellen. Dazu geh&ouml;ren oft Deutschkurse, Freizeitaktivit&auml;ten, Sammeln und Ausgabe von Sachspenden wie Spielzeug und Kleidung.</p>
+      <h3>Ergänzungen &amp; Korrekturen </h3>
+      <p>
+      Wir freuen uns &uuml;ber jede Korrektur und Erg&auml;nzung, bitte schreiben Sie an <a href="mailto:elsenheimer_internetzugang@gmx.de">elsenheimer_internetzugang@gmx.de</a>.
+      </p>
+      <h3>Daten &amp; Code</h3>
+      <p>Die Daten im CSV-Format <a href="https://raw.githubusercontent.com/muc-fluechtlingsrat/helferkreis-map/gh-pages/data/map_refugee_initiatives_munich.csv">finden Sie auf Github</a> bzw. als <a href="https://docs.google.com/spreadsheets/d/1oIxVnHMl0VnEcy_Drmh5hJyXNpL1-am5zyD5ErrncbY/edit?pref=2&amp;pli=1">Google Spreadsheet</a>, die Metadaten <a href="https://raw.githubusercontent.com/muc-fluechtlingsrat/helferkreis-map/gh-pages/data/datapackage.json">hier im JSON-Format</a>. Das Weiterbenutzen ist ausdr&uuml;cklich erlaubt.</p>
+      <p>Der Code befindet sich <a href="https://github.com/muc-fluechtlingsrat/helferkreis-map/tree/gh-pages">hier bei Github</a>.</p>
+      <h3> &Auml;hnliche Karten </h3>
+      <ul>
+	<li><a href=http://www.asylhelfer.bayern/>Bayern - schließt an den Stadtgrenzen an, wo wir aufhören</a></li>
+        <li><a href="http://www.fluechtlingshilfemuenchen.de/mithelfen/">F&uuml;r M&uuml;nchen, diverse Initiativen</a></li>
+        <li><a href="https://www.proasyl.de/ehrenamtliches-engagement/">Deutschlandweit, mit Verweis auf viele lokale Karten</a></li>
+      </ul>
+    </div>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-77190700-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
   </body>
 </html>
 
