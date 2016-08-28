@@ -18,7 +18,14 @@ $(function(){
 
 	  		if (data[i].long != '' && data[i].lat != '') {
 
-	  			if (parseInt(data[i].radius) > 0) {
+	  			if (parseInt(data[i].radius) == 2000) {
+	  				var marker = L.circle([data[i].lat, data[i].long], data[i].radius, {
+	  				    color: '#ff9933',
+	  				    fillColor: '#D9EB16',
+	  				    fillOpacity: 0.4
+	  				}).addTo(map);
+                                } else if {
+	  			  (parseInt(data[i].radius) > 0) {
 	  				var marker = L.circle([data[i].lat, data[i].long], data[i].radius, {
 	  				    color: '#ff9933',
 	  				    fillColor: '#D9EB76',
