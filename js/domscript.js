@@ -23,7 +23,7 @@ $(function(){
 	  				var marker = L.circle([data[i].lat, data[i].long], data[i].radius, {
 	  				    color: '#ff9933',
 	  				    fillColor: '#ecf9b9',
-	  				    fillOpacity: 0.4
+	  				    fillOpacity: 0.2
 	  				}).addTo(map);
                                 } else if (parseInt(data[i].radius) > 0) {
 	  				var marker = L.circle([data[i].lat, data[i].long], data[i].radius, {
