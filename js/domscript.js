@@ -22,7 +22,7 @@ $(function(){
 	  			if (parseInt(data[i].radius) == 2000) {
 	  				var marker = L.circle([data[i].lat, data[i].long], data[i].radius, {
 	  				    color: '#ff9933',
-	  				    fillColor: '#D9EB16',
+	  				    fillColor: '#ecf9b9',
 	  				    fillOpacity: 0.4
 	  				}).addTo(map);
                                 } else if (parseInt(data[i].radius) > 0) {
