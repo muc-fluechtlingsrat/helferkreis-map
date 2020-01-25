@@ -41,9 +41,7 @@ $(function(){
 	  			popUpString = "<h3>"+data[i].name+"</h3>"
 	  			if (data[i].homepage != "") {
 	  				popUpString += "<p><a href="+data[i].homepage+">Website</a></p>";
-	  			} else {
-	  				"<p>Kontakt: "+ data[i].number+data[i].contact+"</p>"
-	  			}
+	  			} 
 
 	  			marker.bindPopup(popUpString);
 	  			
