@@ -2,13 +2,14 @@ $(function(){
 
 	var map = L.map('map').setView([48.13, 11.58], 10);
 
-	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+	L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> &copy; <a href="http://mapbox.com">Mapbox</a>',
-    attributionControl:false,
+	attributionControl:false,
+	tileSize: 512,
+	zoomOffset: -1,
     maxZoom: 15,
     minZoom: 10,
-    detectRetina: true,
-    id: 'mapbox.streets',
+    id: 'mapbox/streets-v11',
     accessToken: 'pk.eyJ1IjoiYmVybmhhcmR2b2dsZXIiLCJhIjoiY2lsZjFrMXE2MDAyeHc5bTQxa2Rob293ZCJ9.rzwxlAgOdr-6YhTwYfF-jA'
 }).addTo(map);
 
