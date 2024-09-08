@@ -6,6 +6,10 @@ Viele Helferkreise haben keine Adresse. Deshalb wählen wir zur Darstellung der 
 
 Eine bayernweite Karte findet sich auf (http://www.asylhelfer.bayern/)[http://www.asylhelfer.bayern/]
 
+Viele Ehrenamtliche sind aktiv ohne Website. Sie haben Geflüchtete kennengelernt oder in der Asylsozialberatung in der Unterkunft nachgefragt, oder bei der örtlichen Verwaltung, oder bei einer Kirchengemeinde ... es gibt viele Möglichkeiten.
+
+Wir bemühen uns, die Karte möglichst aktuell zu halten (letztes Update: September 2024). Trotzdem entstehen neue Gruppen, und andere hören auf. Bitte habt Nachsicht. Noch besser: Gebt uns Bescheid unter ynux@gmx.net , wenn etwas nicht stimmt. 
+
 # Architektur
 
 1. Die Daten werden in einem öffentlich lesbarem (Google Spreadsheet)[https://docs.google.com/spreadsheets/d/1oIxVnHMl0VnEcy_Drmh5hJyXNpL1-am5zyD5ErrncbY/edit?alt=json#gid=0] . Sie bestehen aus `name`,`latitude`,`longitude`,`radius`,`homepage` 
